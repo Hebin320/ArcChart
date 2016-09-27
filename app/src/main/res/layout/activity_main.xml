@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!---->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_240"
+        android:background="@color/color_title">
+
+        <LinearLayout
+            android:id="@+id/doughnutView"
+            android:layout_width="@dimen/margin_180"
+            android:layout_height="@dimen/margin_180"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_20"
+            android:orientation="vertical" />
+
+        <com.hebin.arcchart.RiseNumberTextView
+            android:id="@+id/tv_rise_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_50"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_55" />
+
+        <TextView
+            android:id="@+id/tv_num_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_rise_num"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/home_passenger"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:id="@+id/tv_num_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_num_01"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_2"
+            android:textColor="@color/home_passenger"
+            android:textSize="@dimen/text_size_14" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_num_ring"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+</LinearLayout>

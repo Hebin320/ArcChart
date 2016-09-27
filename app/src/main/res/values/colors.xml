@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#50ced6</color>
+    <color name="colorPrimaryDark">#50ced6</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_title">#50ced6</color>
+    <color name="color_text">#666666</color>
+    <color name="report_text">#a0a0a0</color>
+    <color name="color_time">#616162</color>
+    <color name="color_hint">#cacacf</color>
+    <color name="color_other">#8b9bb4</color>
+    <color name="color_view">#eaeaea</color>
+    <color name="color_btn">#bafbff</color>
+    <color name="text_title">#333333</color>
+    <color name="color_bg">#f5f5f9</color>
+    <color name="color_article_hint">#aaaaaa</color>
+    <color name="color_article_read">#7c7c7c</color>
+    <color name="color_management">#49b9d6</color>
+    <color name="rect_type">#32a7ae</color>
+    <color name="home_passenger">#70e3ea</color>
+    <color name="home_clotheslook">#79c2f1</color>
+    <color name="home_clothesdress">#beacf7</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="brown">#FF4B2D29</color>
+    <color name="orange">#FFE29B33</color>
+    <color name="pink">#FFE9C7C7</color>
+    <color name="gray">#FF929292</color>
+    <color name="blue">#33b6e7</color>
+    <color name="red">#ffff0000</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="green">#ff00ff00</color>
+    <color name="grey">#fff8f8f8</color>
+
+</resources>
